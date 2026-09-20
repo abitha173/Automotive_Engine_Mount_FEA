@@ -1,0 +1,57 @@
+AUTOMOTIVE ENGINE MOUNT FEA
+MESH SETUP REPORT
+==================================================
+
+Generated UTC:
+2026-09-20T13:25:57.623690+00:00
+
+Mesh Type:
+3D solid
+
+Element Order:
+Quadratic
+
+Mesh Method:
+Tetrahedral
+
+Target Element Sizes:
+8.0 mm, 6.0 mm, 4.0 mm, 3.0 mm, 2.0 mm
+
+Convergence Tolerance:
+5.0 %
+
+Mesh Quality Parameters to Inspect:
+--------------------------------------------------
+1. Element aspect ratio
+2. Skewness
+3. Jacobian
+4. Warpage
+5. Minimum/maximum angles
+6. Element quality
+7. Local refinement around holes and fillets
+
+Recommended Local Refinement:
+--------------------------------------------------
+- Bolt holes
+- Fillets
+- Sharp geometry transitions
+- Load application regions
+- Fixed-support regions
+- Contact interfaces
+
+Mesh Convergence Procedure:
+--------------------------------------------------
+1. Generate initial coarse mesh.
+2. Solve the static structural model.
+3. Record maximum Von Mises stress.
+4. Record total deformation.
+5. Reduce element size.
+6. Solve again.
+7. Compare the important result quantities.
+8. Continue refinement until the selected output
+   changes by less than the convergence tolerance.
+
+IMPORTANT:
+The convergence CSV contains empty solver-result fields.
+No stress, deformation, element count, or FoS values are
+invented by this script.

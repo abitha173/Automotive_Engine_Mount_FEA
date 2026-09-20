@@ -1,0 +1,61 @@
+AUTOMOTIVE ENGINE MOUNT FEA
+BOUNDARY CONDITIONS REPORT
+==================================================
+
+Generated UTC:
+2026-09-20T13:28:26.996004+00:00
+
+1. FIXED SUPPORT
+--------------------------------------------------
+Location:
+Base mounting-hole regions
+
+Description:
+The base mounting regions are considered fixed in
+the structural model to represent attachment of the
+mount to the supporting structure.
+
+Constraint:
+UX = UY = UZ = 0
+
+2. APPLIED LOAD
+--------------------------------------------------
+Location:
+Upper engine-mount / boss region
+
+Load magnitude:
+5000.00 N
+
+Global direction:
+X = 0.0
+Y = 0.0
+Z = -1.0
+
+Unit direction:
+X = 0.000
+Y = 0.000
+Z = -1.000
+
+Force components:
+Fx = 0.00 N
+Fy = 0.00 N
+Fz = -5000.00 N
+
+3. UNITS
+--------------------------------------------------
+Length : mm
+Force  : N
+Stress : MPa
+
+4. IMPORTANT ENGINEERING NOTE
+--------------------------------------------------
+The 5000 N load is a demonstration/
+assumption for constructing the CAE workflow.
+
+It must be replaced by the actual engine-load/design
+requirement before final engineering conclusions are
+made.
+
+This script documents the intended boundary conditions.
+It does NOT apply them to an ANSYS or HyperWorks solver
+and does NOT generate FEA stress or deformation results.

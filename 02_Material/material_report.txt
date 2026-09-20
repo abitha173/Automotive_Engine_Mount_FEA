@@ -1,0 +1,27 @@
+AUTOMOTIVE ENGINE MOUNT FEA
+MATERIAL REPORT
+==================================================
+
+Generated UTC:
+2026-09-20T13:22:16.244585+00:00
+
+Material:
+Structural Steel (Demo)
+
+Properties:
+--------------------------------------------------
+Young's Modulus      : 200.0 GPa
+Poisson Ratio        : 0.3
+Density              : 7850.0 kg/m^3
+Yield Strength       : 250.0 MPa
+Ultimate Strength    : 460.0 MPa
+
+IMPORTANT:
+These are demonstration structural-steel values.
+Verify and replace them using material_properties.pdf
+before using them as final project data.
+
+Factor of safety:
+FoS = Yield Strength / Maximum Von Mises Stress
+
+No solver stress result is assumed or fabricated by this script.
